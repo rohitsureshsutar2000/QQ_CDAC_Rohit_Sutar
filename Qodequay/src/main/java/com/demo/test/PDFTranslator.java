@@ -39,7 +39,7 @@ public class PDFTranslator {
 //          </dependency>
         	
         	
-            PDDocument document = PDDocument.load(new File("D:/AlgoDomain Project/Qodequry/Qodequay/3963-गहाणखत.pdf"));
+            PDDocument document = PDDocument.load(new File("C:\\Users\\user\\OneDrive\\Desktop\\a\\Qodequay\\Qodequay\\Qodequay\\input.pdf"));
             System.out.println("i think file not found");
             if(document!=null) {
             	System.out.println("i");
